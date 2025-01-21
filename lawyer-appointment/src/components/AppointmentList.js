@@ -61,6 +61,7 @@ const AppointmentList = ({ lawyers, appointments }) => {
                 }
                 return (
                     <div key={index} className="appointment-card">
+                        <p><strong>Lawyer ID:</strong> {lawyer.id}</p>
                         <p><strong>Lawyer Name:</strong> {lawyer.name}</p>
                         <p><strong>Specialty:</strong> {lawyer.specialty}</p>
                         <p><strong>Date:</strong> {appointment.date}</p>
